@@ -1,0 +1,31 @@
+@media(max-width: 991px) {
+    .service-section .service-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 767px) {
+    .service-section .service-item,
+    .about-section .skills .skill-item,
+    .about-section .about-info,
+    .about-section .about-img,
+    .home-section .home-img,
+    .home-section .home-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text {
+        order: 2;
+    }
+    .home-section .home-text {
+        text-align: center;
+    }
+    .home-section .full-screen {
+        padding: 100px 0;
+    }
+    .home-section .home-img .img-box {
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+}
