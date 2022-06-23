@@ -689,7 +689,7 @@ service section
 }
 
 .contact-section .contact-item {
-    flex: 0 0 33.33%;
+    flex: 0 0.5 33.33%;
     max-width: 33.33%;
     padding: 15px;
     display: flex;
